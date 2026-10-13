@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""构建 HW01 作业 notebook（20244081108_王亨泰_HW01.ipynb）。"""
+"""构建 HW01 作业 notebook（20244081108_王亨泰_hw01.ipynb）。"""
 import nbformat as nbf
 from nbformat.v4 import new_notebook, new_markdown_cell, new_code_cell
 
@@ -218,7 +218,7 @@ nb.metadata.update({
     "kernelspec": {"display_name": "Python 3 (pyda)", "language": "python", "name": "python3"},
     "language_info": {"name": "python", "version": "3.11.17"},
 })
-out = r"C:\Users\33721\Doubao\chats\2026-10-13\new-chat\python-assignments-20244081108\hw01\20244081108_王亨泰_HW01.ipynb"
+out = r"C:\Users\33721\Doubao\chats\2026-10-13\new-chat\python-assignments-20244081108\hw01\20244081108_王亨泰_hw01.ipynb"
 with open(out, "w", encoding="utf-8") as f:
     nbf.write(nb, f)
 print("HW01 notebook 已生成：", out, "共", len(cells), "个单元格")

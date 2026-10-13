@@ -16,7 +16,7 @@ python-assignments-20244081108/
 │       ├── report.txt                   # 统计报告（w/a 模式演示）
 │       └── students.pkl                 # pickle 序列化结果
 ├── hw01/
-│   └── 20244081108_王亨泰_HW01.ipynb     # 作业1
+│   └── 20244081108_王亨泰_hw01.ipynb     # 作业1
 └── build/
     ├── build_exp01.py                   # 用 nbformat 生成 EXP01 的脚本（可复现）
     └── build_hw01.py                    # 用 nbformat 生成 HW01 的脚本（可复现）
@@ -49,7 +49,7 @@ cd exp01
 jupyter nbconvert --to notebook --execute --inplace "20244081108_王亨泰_exp01.ipynb"
 
 cd ../hw01
-jupyter nbconvert --to notebook --execute --inplace "20244081108_王亨泰_HW01.ipynb"
+jupyter nbconvert --to notebook --execute --inplace "20244081108_王亨泰_hw01.ipynb"
 ```
 
 > 两个 Notebook 均已从头执行通过，无任何报错，所有输出已填充。
